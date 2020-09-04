@@ -74,13 +74,13 @@ header {
 }
 
 .highway {
-    width: 48%;
+    width: 42%;
     display: flex;
-    margin: 0 atuo;
+    margin: 0 auto;
 }
 
 .head {
-    width: 48%;
+    width: 42%;
     display: inline-flex;
     align-items: center;
     margin: 0 auto;
@@ -96,7 +96,7 @@ header {
 
 .head nav a {
     display: inline-block;
-    width: 15%;
+    width: 18%;
     margin: 0 1%;
     text-align: center;
     text-decoration: none;
