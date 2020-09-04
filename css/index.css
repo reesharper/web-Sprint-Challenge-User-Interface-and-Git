@@ -225,13 +225,42 @@ footer nav a {
 /* about page CSS */
 
 .about-text {
-    margin-bottom: 5%;
     padding-bottom: 5%;
     border-bottom: 1px dashed black;
 }
 
 .bottom-text {
-    margin: 5% 0;
+    margin-bottom: 5%;
     padding-top: 5%;
-    border-top: 1px dashed black;
+}
+
+.learn-content {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.learn {
+    width: 40%;
+    border-bottom: 1px dashed black;
+    margin-top: 8%;
+}
+
+.learn h3 {
+    margin: 5% 0;
+}
+
+.learn p {
+    width: 120%;
+}
+
+.learn a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3% 5%;
+    margin: 5% 0;
+    border-radius: 10px;
 }
