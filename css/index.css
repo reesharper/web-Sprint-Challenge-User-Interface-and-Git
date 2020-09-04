@@ -66,6 +66,43 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 100%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.highway {
+    width: 48%;
+    display: flex;
+    margin: 0 atuo;
+}
+
+.head {
+    width: 48%;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 10vh;
+    justify-content: center;
+}
+
+.head nav {
+    display: flex;
+    margin: 0 3%;
+    width: 100%;
+}
+
+.head nav a {
+    display: inline-block;
+    width: 15%;
+    margin: 0 1%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -110,6 +147,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
