@@ -34,30 +34,45 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the fundimentals of the coding process. Like in basketball you can get by with throwing up a bad shot everytime untill you make it but knowing what you are doing and the correct way to do it is everything. Semantic HTML keeps your code organized and readable for your future self or anyone else trying to read your code. It also allows you to precisly call out elements in css knowing the correct specificity and reasoning. Semantic HTML is what you use to lable your HTML in order to be readable and called out in CSS. these include "header" "footer" "main" "section" etc.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: inline; allows an element to be displayed inside a current block along side it. It also has no line breaks surrounding the element allowing other elements to touch it. 
+
+Display: block; has a line break surround the element not allowing other elements to directly touch it. it also makes it so that inline defaulted elements may be treated as a block thus giving new flexibility such as width.
 
 3. What are the 4 areas of the box model?
 
+    1. content
+    2. padding
+    3. border
+    4. margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+the cross axis. for example if you are using flex-direction: row; then align-items: center; would align the items virtically in the center of the container (along the y axis) 
+
 5. Explain why git is valuable to a team of developers.
+
+git is incredibly valueable because it allows multipe people to work on the same content at the same time starting from a master file then if 5 people all work on different sections during the day they can use git to push their changes directly to the same repository then as they check their work they can just merge it all together creating a more well rounded project all without getting in each others way. Git gives you security in knowing your files are being saved and sent to your team even if your computer crashed it will still be there. Git also gives the remote work capabilities to be working with a client across the world and have the ability to transfer your code and discuss it very fluidly. Another benefit of github specifically is that it can be used as a accountability and tracking platform to see how everybody is doing and how much productivity they have been producing.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your Team Lead as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull-request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your Team Lead as a reviewer on the pull-request
+- [x] Your Team Lead will count the project as complete by merging the branch back into master.
  
 
 
@@ -69,30 +84,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [x] box1: `teal`
+* [x] box2: `gold`
+* [x] box3: `cadetblue`
+* [x] box4: `coral`
+* [x] box5: `crimson`
+* [x] box6: `forestgreen`
+* [x] box7: `darkorchid`
+* [x] box8: `hotpink`
+* [x] box9: `indigo`
+* [x] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x] Copy and paste your home page navigation and header into the about page
+* [x] Update the header image with the about page image
+* [x] Link the `Home` navigation item back to the `index.html` page.
+* [x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
